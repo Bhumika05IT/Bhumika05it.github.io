@@ -10,70 +10,87 @@
     <p>I'm hosted with GitHub Pages.</p>
 
     <h1>
-        Part Ordering API and Dashboard</h1>
+        Part Ordering API and Dashboard
+    </h1>
+
+    <p>
         The Part Ordering API is built using C#, .NET Core, and SQL, while the Dashboard is developed using C#, .NET Core, Blazor Server, SQL, and Azure DevOps.
         The company's repair warehouse processes 2,000 to 3,000 laptops and tablets daily. In the previous repair process, technicians had to order missing parts using a legacy COBOL application, which had several limitations. The application could accept input but did not provide real-time database updates or show the availability of ordered parts.
         After placing an order, the warehouse team manually checked the availability of each required part. If all parts were available, they would assemble the package; if any item was missing, the package was placed on a separate rack, causing delays.
+    </p>
+    <h2>
         Improvements with the New System
+    </h2>
+    <p>
         The new system enhances the procurement process, improves warehouse operations, and provides repair technicians with real-time order status updates. It makes the repair workflow more efficient, predictable, and organized, reducing processing time by 30%.
         Automation is achieved through a .NET Core background thread, which processes pending orders as soon as parts become available.
+    </p>
+    <h2>
         Key Features
-        Integration with the Legacy COBOL API:
-
-
-        Validates input data.
-
-
-        Sends automated emails to the procurement team to add unavailable parts to the database.
-
-
-        Retrieves necessary parameters from the database.
-
-
+    </h2>
+    <h3>
         Integration with Dell’s API:
+    </h3>
+
+    <ul>
+        <li>
+            Fetches details such as pricing and supplier information.
+        </li>
+        <li>
+            Selects the correct parts based on stakeholder requirements.
+        </li>
+        <li>
+            Sends a request to Dell’s API when parts are required for a motherboard repair.
+        </li>
+        <li>
+            Notifies the warehouse procurement team to manually post orders to Dell’s API when necessary.
+        </li>
+        <li>
+
+        </li>
+
+    </ul>
+
+    <h3> Dashboard Functionalities:</h3>
+
+    <ul>
+        <li>
+            Allows users to mark orders as processing, ready for delivery, delivered, or posted.
+        </li>
+
+        <li>
+            Generates a pick ticket with a barcode for all orders with available parts.
+        </li>
+        <li>
+            Displays bin numbers for easy part retrieval.
+        </li>
+        <li>
+
+            Enables warehouse runners to scan and verify orders using employee badge IDs before final delivery.
+        </li>
+    </ul>
+
+    <h3>  My Responsibilities</h3>
+    <ul>
+        <li>
+            Collaborated with stakeholders to gather requirements, prototype the dashboard, and iterate based on user feedback.
+            </li>
+        <li>
+            
+            Designed, developed, and tested the entire system.
+            </li>
+        <li>
+            Implemented enhancements, user training documentation, and maintenance.
+</li>
+<li>
+
+            Managed the entire project independently, ensuring smooth deployment and ongoing improvements.
+
+        </li>
+    </ul>
+    <p>This system significantly improves efficiency by automating order fulfillment, enhancing inventory management, and streamlining the repair workflow</p>
 
 
-        Fetches details such as pricing and supplier information.
 
-
-        Selects the correct parts based on stakeholder requirements.
-
-
-        Sends a request to Dell’s API when parts are required for a motherboard repair.
-
-
-        Notifies the warehouse procurement team to manually post orders to Dell’s API when necessary.
-
-
-        Dashboard Functionalities:
-
-
-        Allows users to mark orders as processing, ready for delivery, delivered, or posted.
-
-
-        Generates a pick ticket with a barcode for all orders with available parts.
-
-
-        Displays bin numbers for easy part retrieval.
-
-
-        Enables warehouse runners to scan and verify orders using employee badge IDs before final delivery.
-
-
-        My Responsibilities
-        Collaborated with stakeholders to gather requirements, prototype the dashboard, and iterate based on user feedback.
-
-
-        Designed, developed, and tested the entire system.
-
-
-        Implemented enhancements, user training documentation, and maintenance.
-
-
-        Managed the entire project independently, ensuring smooth deployment and ongoing improvements.
-        This system significantly improves efficiency by automating order fulfillment, enhancing inventory management, and streamlining the repair workflow.
-
-
-   
 </body>
 </html>
