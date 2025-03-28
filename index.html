@@ -1,123 +1,118 @@
 ﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
 
+        .container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        .section {
+            margin-bottom: 20px;
+        }
+    </style>
 </head>
-
 <body>
-    <table>
-        <tr>
-            <td>
-                <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;">
-                    <h1> Industrial Projects</h1>
-                    <ol>
-                        <li>
-                            <h4>
-                                Part Ordering API and Dashboard - Ware House Operations and Inventory Management
-                            </h4>
-                        </li>
-                        <li><h4>   	 User API - Secure way to iteract with employee`s data </h4></li>
-                        <li><h4>    Consumables, Dell Warehouse Dashboard - A page to handle items issued/consumed by employees.</h4></li>
-                        <li><h4>  	Inmates Processing System - System To Record Inmates everyday work at County`s jail.</h4></li>
-                        <li><h4>   Case and Defendant database - System to perform operations on County`s data</h4></li>
-                        <li><h4>   CancerCare - Landing Page for Insurance Company</h4></li>
-                        <li><h4>   Golf Pyramid - Web Application for Golf Coach and Player training network.</h4></li>
-                        <li><h4>   PCB Genie - Window ERP System for PCB manufacturing Company</h4></li>
-
-
-                    </ol>
-                </div>
-            </td>
-        </tr>
-    </table>
-
-
-
-    <h1>
-        Part Ordering API and Dashboard
-    </h1>
-    <p>
-        The Part Ordering API is built using C#, .NET Core, and SQL, while the Dashboard is developed using C#, .NET Core, Blazor Server, SQL, and Azure DevOps.
-        The company's repair warehouse processes 2,000 to 3,000 laptops and tablets daily. In the previous repair process, technicians had to order missing parts using a legacy COBOL application, which had several limitations. The application could accept input but did not provide real-time database updates or show the availability of ordered parts.
-        After placing an order, the warehouse team manually checked the availability of each required part. If all parts were available, they would assemble the package; if any item was missing, the package was placed on a separate rack, causing delays.
-    </p>
-    <h2>
-        Improvements with the New System
-    </h2>
-    <p>
-        The new system enhances the procurement process, improves warehouse operations, and provides repair technicians with real-time order status updates. It makes the repair workflow more efficient, predictable, and organized, reducing processing time by 30%.
-        Automation is achieved through a .NET Core background thread, which processes pending orders as soon as parts become available.
-    </p>
-    <h2>
-        Key Features
-    </h2>
-    <h3>
-        Integration with Dell’s API:
-    </h3>
-
-    <ul>
-        <li>
-            Fetches details such as pricing and supplier information.
-        </li>
-        <li>
-            Selects the correct parts based on stakeholder requirements.
-        </li>
-        <li>
-            Sends a request to Dell’s API when parts are required for a motherboard repair.
-        </li>
-        <li>
-            Notifies the warehouse procurement team to manually post orders to Dell’s API when necessary.
-        </li>
-
-
-    </ul>
-
-    <h3> Dashboard Functionalities:</h3>
-
-    <ul>
-        <li>
-            Allows users to mark orders as processing, ready for delivery, delivered, or posted.
-        </li>
-
-        <li>
-            Generates a pick ticket with a barcode for all orders with available parts.
-        </li>
-        <li>
-            Displays bin numbers for easy part retrieval.
-        </li>
-        <li>
-
-            Enables warehouse runners to scan and verify orders using employee badge IDs before final delivery.
-        </li>
-    </ul>
-
-    <h3>  My Responsibilities</h3>
-    <ul>
-        <li>
-            Collaborated with stakeholders to gather requirements, prototype the dashboard, and iterate based on user feedback.
-        </li>
-        <li>
-
-            Designed, developed, and tested the entire system.
-        </li>
-        <li>
-            Implemented enhancements, user training documentation, and maintenance.
-        </li>
-        <li>
-
-            Managed the entire project independently, ensuring smooth deployment and ongoing improvements.
-
-        </li>
-    </ul>
-    <p>This system significantly improves efficiency by automating order fulfillment, enhancing inventory management, and streamlining the repair workflow</p>
-
-
-    <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;"> </div>
-</div>
-    
+    <div class="container">
+        <header>
+            <h1>My Portfolio</h1>
+            <p>Welcome to my personal portfolio showcasing my skills and work.</p>
+        </header>
+        <section class="section">
+            <h2>About Me</h2>
+            <p>I am a passionate and dedicated professional with expertise in web development and design.</p>
+        </section>
+        <section class="section">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Responsive Web Design</li>
+                <li>Frontend Frameworks</li>
+                <li>Backend Development</li>
+                <li>C#, .NET CORE, SQL, LINQ, Web-Services, Bootstrap, Razor Syntax</li>
+                <li>API, Web Application, MS Azure, Blazor, SQL, HTML 5, CSS, DevOps</li>
+                <li>TFS, VSS, Tortoise SVN, GitHub, Agile/Scrum</li>
+                <li>Visual Studio, Visual Studio Code, SQL Management Studio</li>
+                <li>Postman, Fiddler, Swagger</li>
+            </ul>
+        </section>
+        <section class="section">
+            <h2>Projects</h2>
+            <p>Here are some of the projects I have worked on:</p>
+            <ol>
+                <li><h4>Part Ordering API and Dashboard</h4></li>
+                <li><h4>User API</h4></li>
+                <li><h4>Consumables, Dell Warehouse Dashboard</h4></li>
+                <li><h4>Inmates Processing System</h4></li>
+                <li><h4>Case and Defendant Database</h4></li>
+                <li><h4>CancerCare</h4></li>
+                <li><h4>Golf Pyramid</h4></li>
+                <li><h4>PCB Genie</h4></li>
+            </ol>
+        </section>
+        <section class="section">
+            <h2>Project Descriptions</h2>
+            <p><strong>Part Ordering API and Dashboard:</strong></p>
+            <p>The Part Ordering API is built using C#, .NET Core, and SQL, while the Dashboard is developed using C#, .NET Core, Blazor Server, SQL, and Azure DevOps.</p>
+            <p>The company's repair warehouse processes 2,000 to 3,000 laptops and tablets daily. Previously, technicians had to order missing parts using a legacy COBOL application, which had several limitations. The application could accept input but did not provide real-time database updates or show the availability of ordered parts.</p>
+            <p>After placing an order, the warehouse team manually checked the availability of each required part. If all parts were available, they would assemble the package; if any item was missing, the package was placed on a separate rack, causing delays.</p>
+            <h4>Improvements with the New System</h4>
+            <p>The new system enhances the procurement process, improves warehouse operations, and provides repair technicians with real-time order status updates. It makes the repair workflow more efficient, predictable, and organized, reducing processing time by 30%.</p>
+            <p>Automation is achieved through a .NET Core background thread, which processes pending orders as soon as parts become available.</p>
+            <h4>Key Features</h4>
+            <ul>
+                <li>
+                    <strong>Integration with Dell’s API:</strong>
+                    <ul>
+                        <li>Fetches details such as pricing and supplier information.</li>
+                        <li>Selects the correct parts based on stakeholder requirements.</li>
+                        <li>Sends a request to Dell’s API when parts are required for a motherboard repair.</li>
+                        <li>Notifies the warehouse procurement team to manually post orders to Dell’s API when necessary.</li>
+                    </ul>
+                </li>
+                <li>
+                    <strong>Dashboard Functionalities:</strong>
+                    <ul>
+                        <li>Allows users to mark orders as processing, ready for delivery, delivered, or posted.</li>
+                        <li>Generates a pick ticket with a barcode for all orders with available parts.</li>
+                        <li>Displays bin numbers for easy part retrieval.</li>
+                        <li>Enables warehouse runners to scan and verify orders using employee badge IDs before final delivery.</li>
+                    </ul>
+                </li>
+            </ul>
+            <h4>My Responsibilities</h4>
+            <ul>
+                <li>Collaborated with stakeholders to gather requirements, prototype the dashboard, and iterate based on user feedback.</li>
+                <li>Designed, developed, and tested the entire system.</li>
+                <li>Implemented enhancements, user training documentation, and maintenance.</li>
+                <li>Managed the entire project independently, ensuring smooth deployment and ongoing improvements.</li>
+            </ul>
+            <p>This system significantly improves efficiency by automating order fulfillment, enhancing inventory management, and streamlining the repair workflow.</p>
+            <p><strong>User API:</strong> A secure API that facilitates interaction with employee data while ensuring compliance and data protection.</p>
+            <p><strong>Consumables, Dell Warehouse Dashboard:</strong> A dashboard to track items issued and consumed by employees within the warehouse.</p>
+            <p><strong>Inmates Processing System:</strong> A system designed to record and manage inmates' daily work at a county jail.</p>
+            <p><strong>Case and Defendant Database:</strong> A system that allows operations on legal case records and defendant data.</p>
+            <p><strong>CancerCare:</strong> A landing page developed for an insurance company specializing in cancer care policies.</p>
+            <p><strong>Golf Pyramid:</strong> A web application that connects golf coaches and players within a training network.</p>
+            <p><strong>PCB Genie:</strong> A Windows-based ERP system designed for a PCB manufacturing company.</p>
+        </section>
+        <section class="section">
+            <h2>Contact</h2>
+            <p>Email: email@gmail.com</p>
+        </section>
+    </div>
 </body>
 </html>
