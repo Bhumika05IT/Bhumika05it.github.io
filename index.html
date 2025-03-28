@@ -1,13 +1,58 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .left {
+            background-color: #2196F3;
+            padding: 20px;
+            float: left;
+            width: 20%; /* The width is 20%, by default */
+        }
+
+        .main {
+            background-color: #f1f1f1;
+            padding: 20px;
+            float: left;
+            width: 60%; /* The width is 60%, by default */
+        }
+
+        .right {
+            background-color: #04AA6D;
+            padding: 20px;
+            float: left;
+            width: 20%; /* The width is 20%, by default */
+        }
+
+        /* Use a media query to add a break point at 800px: */
+        @media screen and (max-width: 800px) {
+            .left, .main, .right {
+                width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    <div class="left">
+        <p>Left Menu</p>
+    </div>
+
+    <div class="main">
+        <p>Main Content</p>
+    </div>
+
+    <div class="right">
+        <p>Right Content</p>
+    </div>
+
 
     <h1>
         Part Ordering API and Dashboard
@@ -74,15 +119,15 @@
     <ul>
         <li>
             Collaborated with stakeholders to gather requirements, prototype the dashboard, and iterate based on user feedback.
-            </li>
+        </li>
         <li>
-            
+
             Designed, developed, and tested the entire system.
-            </li>
+        </li>
         <li>
             Implemented enhancements, user training documentation, and maintenance.
-</li>
-<li>
+        </li>
+        <li>
 
             Managed the entire project independently, ensuring smooth deployment and ongoing improvements.
 
@@ -91,6 +136,6 @@
     <p>This system significantly improves efficiency by automating order fulfillment, enhancing inventory management, and streamlining the repair workflow</p>
 
 
-
+    <div style="background-color:#e5e5e5;text-align:center;padding:10px;margin-top:7px;"> </div>
 </body>
 </html>
